@@ -1,51 +1,20 @@
-body {
-    background-color: black;
-}
-
-h1 {
-    color: white;
-    border-bottom: 3px solid rgb(224, 83, 217);
-    flex-direction: column;
-    margin-top: 30px;
+.character {
+    border: 5px solid black;
+    display: flex;
+    width: 1000px;
     margin: auto;
-    max-width: 240px;
-    font-size: 50px;
-}
-
-.center {
-    color: white;
-    flex-direction: column;
-    max-width: 150px;
-    margin: auto;
-    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 img {
-    flex-direction: column;
-    margin-left: 50px;
-    max-width: 400px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.strIngredients {
-    border: 3px solid white;
-    color:white;
-    margin-left: 50px;
-    max-width: 350px;
-    font-size: 30px;
+.number {
+    padding-left: 15px;
 }
 
-.strInstruction {
-    border: 3px solid white;
-    color:white;
-    margin-left: 50px;
-    max-width: 500px;
-    font-size: 30px;
+.title {
+    text-align: center;
 }
-
-.leftt {
-    color: rgb(224, 83, 217);
-    max-width: 150px;
-    margin-left: 50px;
-    font-size: 20px;
-}
-
