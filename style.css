@@ -4,11 +4,13 @@
     width: 1000px;
     margin: auto;
     margin-bottom: 10px;
+    background-color: rgb(248, 188, 230);
 }
 
 img {
     padding-right: 15px;
     padding-left: 15px;
+    width: 250px;
 }
 
 .number {
@@ -17,4 +19,8 @@ img {
 
 .title {
     text-align: center;
+}
+
+body {
+    background-color:rgb(206, 88, 186);
 }
